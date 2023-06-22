@@ -22,11 +22,11 @@ function Home({ month, day, message, special }) {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Text>
-        Dia {day} de {monthNames[month]}
+      <Text style={styles.dateText}>
+        Dia {day} de {monthNames[month]}!
       </Text>
-      <Text>{special}</Text>
-      <Text>{message}</Text>
+      <Text style={styles.specialText}>{special}</Text>
+      <Text style={styles.messageText}>{message}</Text>
     </View>
   );
 }

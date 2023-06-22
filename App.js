@@ -12,8 +12,6 @@ export default function App() {
   const month = new Date().getMonth();
   const day = new Date().getDate();
 
-  console.log(messages[month+1][day-1])
-
   useEffect(() => {
     setMessage(messages[month+1][day-1].message);
     setSpecial(messages[month+1][day-1].special);
