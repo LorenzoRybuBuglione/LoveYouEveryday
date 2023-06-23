@@ -7,7 +7,7 @@ function Loading() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <ActivityIndicator size="large" color="#fff"/>
+      <ActivityIndicator size="large" color="#db005b"/>
       <Text style={styles.title}>Carregando...</Text>
     </View>
   );
