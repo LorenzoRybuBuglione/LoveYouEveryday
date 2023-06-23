@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
       color: '#db005b',
       fontSize: 24,
       marginTop: 24,
+      fontWeight: 'bold',
     }
   });
   

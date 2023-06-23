@@ -34,7 +34,7 @@ function Home({ month, day, message, special }) {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <Text style={styles.dateText}>
-        Dia {day} de {monthNames[month]}!
+        Dia {day} de {monthNames[month]}
       </Text>
       <Text style={styles.specialText}>{special}</Text>
       <Image
