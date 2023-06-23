@@ -29,7 +29,6 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     textAlign: "center",
     fontFamily: "Regular",
-    alignSelf: "flex-start",
     marginTop: 20,
   },
   gif: {
