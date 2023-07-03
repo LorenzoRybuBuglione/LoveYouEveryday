@@ -20,10 +20,8 @@ export default function App() {
   const [message, setMessage] = useState("");
   const [special, setSpecial] = useState("");
 
-  // const month = new Date().getMonth();
-  // const day = new Date().getDate();
-  const month = 6;
-  const day = 8;
+  const month = new Date().getMonth();
+  const day = new Date().getDate();
 
   useEffect(() => {
     setMessage(messages[month + 1][day - 1].message);
