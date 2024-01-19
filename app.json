@@ -2,7 +2,7 @@
   "expo": {
     "name": "Te amo todo dia",
     "slug": "LoveYouEveryDay",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,6 +22,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffe569"
       }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "15fad103-e6dd-4d19-93c9-464f4463932e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/15fad103-e6dd-4d19-93c9-464f4463932e"
     }
   }
 }
